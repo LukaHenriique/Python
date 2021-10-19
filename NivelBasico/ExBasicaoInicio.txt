@@ -1,0 +1,181 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[11]:
+
+
+#Faça um Programa que peça dois números e imprima o menor deles.
+
+num1=int(input("digite o primeiro numero:"))
+num2=int(input("digite o segundo numero:"))
+
+if num1 < num2:
+    print("o menor e:",num1)
+else:
+        print ("o menor e:",num2)
+
+
+# In[24]:
+
+
+#2- 2.Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo
+
+num1=int(input("informe o primeiro numero:"))
+
+if num1 > 0:
+    print("numero e positivo",num1)
+else:
+     print("numero e negativo",num1)
+
+
+# In[27]:
+
+
+#3- 3.Faça um Programa que peça um número inteiro e determine se ele é par ou ímpar. Dica: utilize o operador módulo (resto da divisão).
+
+numero=int(input("informe um numero:"))
+
+if numero % 2 ==0:
+    print("nummero e par",numero)
+    
+else:
+    print("numero e impar",numero)
+
+
+
+# 4 - 4 Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido (Utilize elif).
+
+letra =input("Digite seu sexo F ou M: ")
+    
+if letra == "F" or letra == "f":
+    print("Feminino")
+    
+elif letra == "M" or letra == "m":
+    print("Masculino")
+        
+else:
+    print("Sexo Inválido")
+
+
+
+# In[ ]:
+
+
+#6 - 6.	Faça um Programa que leia três números e mostre o maior e o menor deles.
+
+num1=int(input("informre o primeiro numero"))
+num2=int(input("informe o segundo numero"))
+num3=int(input("informe o terceiro numero"))
+
+    if num1 < num2 and num1 < num3:
+        print("numero um e menor",num1)
+    
+     elif num2 < num3 and num2 <num1:
+        print ("o numero dois e menor",num2)
+   
+     elif num3 < num1 and num3 < num2:
+        print("o numero 3 e menor",num3)  
+    
+
+
+# In[ ]:
+
+
+##6 - 6.Faça um Programa que leia três números e mostre o maior e o menor deles.
+ primeiro = int(input("Primeiro numero: "))
+ segundo  = int(input("Segundo numero : "))
+ terceiro = int(input("Terceiro numero: "))
+                      
+ maior = primeiro
+
+ if (segundo > maior):
+     maior = segundo
+
+ if (terceiro > maior):
+     maior = terceiro
+
+ print("Maior:",maior)
+
+ menor = primeiro
+
+ if (segundo < menor):
+     menor = segundo
+
+ if (terceiro < menor):
+     menor = terceiro
+
+ print("Menor: ",menor)
+
+
+# In[ ]:
+
+
+salario=float(input("informe seu salario:"))
+
+if salario <=280:
+    aumento*=0.2
+
+elif salario <=700:
+    aumento*=0.15
+
+elif salario <= 1500:
+    aumento*=0.1
+
+elif salario > 1500:
+    aumento*=0.05
+
+print("salario antes do reajuste",salario)
+print("percentual",percentual,'%')
+
+aumento = percentual * salario
+print (" aumento de  ",aumento)
+
+novo_salario = salario + aumento
+print ("novo salario e de R$:",novo_salario)
+
+        
+    
+
+
+# In[ ]:
+
+
+#8.	Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve         aparecer valor inválido
+
+day=int(input(" qual eo numero"))
+
+if day == 1:
+    print("domingo")
+pass
+elif day ==2:
+    print("segunda")
+    pass
+elif day ==3:
+    print("terca")
+    pass
+
+elif day ==4:
+    print("quarta")
+    pass
+
+elif day ==5:
+    print("quinta")
+    pass
+
+elif day ==6:
+    print("sexta")
+    pass
+
+elif day ==7:
+    print("sabado")
+    pass
+    
+    else:
+    print ("valor invalido ")
+
+
+# In[ ]:
+
+
+
+

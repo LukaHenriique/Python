@@ -1,0 +1,30 @@
+1-- num1=int(input("digite o primeiro numero:"))
+   num2=int(input("digite o segundo numero:"))
+
+  if num1 < num2:
+  print("o menor e:",num1)
+ else:
+        print ("o menor e:",num2)
+
+
+2 --   #Faça um Programa que peça dois números e imprima o menor deles.
+
+ num1=int(input("digite o primeiro numero:"))
+ num2=int(input("digite o segundo numero:"))
+
+ if num1 < num2:
+   print("o menor e:",num1)
+else:
+        print ("o menor e:",num2)
+
+
+
+3 -- #	Faça um Programa que peça um número inteiro e determine se ele é par ou ímpar. Dica: utilize o operador módulo (resto da divisão).
+
+numero=int(input("informe um numero:"))
+
+if numero % 2 ==0:
+print("nummero e par",numero)
+    
+else:
+ print("numero e impar",numero)

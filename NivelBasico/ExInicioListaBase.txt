@@ -1,0 +1,158 @@
+Lista_perguntas = ["Telefonou para a vítima?(sim ou nao)",
+                   "Esteve no local do crime? (sim ou nao)",
+                   "Mora perto da vítima? (sim ou nao)",
+                   "Devia para a vítima (sim ou nao)",
+                   "Já trabalhou com a vítima? (sim ou nao)"]
+tel_vit=[]
+est_loc_cri=[]
+mor_pert_vit=[]
+dev_par_vit=[]
+trab_c_vit=[]
+
+
+Telefonou=[]
+Esteve=[]
+Mora=[]
+Devia=[]
+trabalhou=[]
+
+sim =[]
+nao=[]
+somando_respostas=0
+
+Telefonou=(input("Telefonou para a vítima?(sim ou nao)"))
+Telefonou.append(Telefonou)
+
+Esteve=int(input("Esteve no local do crime? (sim ou nao)"))
+Esteve.append(Esteve)
+
+Mora=int(input("Mora perto da vítima? (sim ou nao)"))
+Mora.append(Mora)
+
+Devia=int(input("Devia para a vítima (sim ou nao)"))
+Devia.append(Devia)
+
+trabalhou=int(input("Já trabalhou com a vítima? (sim ou nao)"))
+trabalhou.append(trabalhou)
+
+for i in range(len(Telefonou,Esteve,Mora,Devia,trabalhou)):
+somando_respostas+=int(i)
+
+if Telefonou == sim:
+   somando_respostas+=1 
+
+
+
+resposta=[]
+cout=0
+
+resposta.append(input("Telefonou para a vítima?(sim ou nao)"))
+
+resposta.append(input("Esteve no local do crime? (sim ou nao)"))
+
+resposta.append(input("Mora perto da vítima? (sim ou nao)"))
+
+resposta.append(input("Devia para a vítima (sim ou nao)"))
+
+resposta(input("Já trabalhou com a vítima? (sim ou nao)"))
+
+for i in resposta:
+   cout+=1
+
+   if cout < 2:
+     print("\nSuspeita")
+
+   elif 3<= cout <=4:
+     print("\nCúmplice")
+
+   elif cout ==5:
+    print ("\nAssassino")
+   elif cout == 0:
+     print ("\nInocente")
+
+
+
+
+respostas=[]
+cout = 0
+status =["Suspeita","Cúmplice","Assassino","Inocente"]
+perguntas = [ 
+    "Telefonou para a vítima?" ,
+    "Esteve no local do crime?" ,
+    "Mora perto da vítima?" ,
+    "Devia para a vítima?" ,
+    "Já trabalhou com a vítima?" 
+]
+for i in range(len(perguntas)):
+  print(perguntas[i])
+  respostas.append(input())
+  cout +=int(respostas[i])
+  
+  if cout < 2:
+     print(status[0])
+
+  elif 3<= cout <=4:
+     print(status[1])
+
+  elif cout ==5:
+    print (status[2])
+  elif cout == 0:
+     print (status[3])
+
+
+
+
+valores = 0
+cont = -1
+notas=''
+while notas != '-1':
+ if valores > -1:
+   cont+=1
+ notas=input("Digite um numero - '-1' para finalizar o programa")
+print("quantidade de valores lidos",cont)
+
+for i in cont:
+  print(i)
+
+
+
+vetor =[]
+numeros = 0
+
+import random as rd
+
+numeros=int(input("informe o primeiro numero"))
+vetor.append(numeros)
+numeros=int(input("informe o segundo numero"))
+vetor.append(numeros)
+
+for j in range(1,len(vetor)+1):
+    print(vetor[-j])
+
+numero=[]
+cont = -1
+notas = 0
+quant = 0 
+soma = 0
+media = 0  
+  
+import random as rd
+
+print("\t A qualquer  momento digite '-1' para finalizar o programa! \n")
+while notas != '-1':
+    cont+=1
+    
+    notas=input("Digite um numero: ")
+    numero.append(notas)
+
+    
+print("\n\tQuantidade de valores digitados :",cont)
+print("Numeros digitados - ",numero[::])
+
+for j in range(1,len(numero)+1):
+  soma+=j
+  soma/j
+  quant=+1
+  print(numero[-j])
+  print("doma e de ",soma)
+  print("media e de ",j)
